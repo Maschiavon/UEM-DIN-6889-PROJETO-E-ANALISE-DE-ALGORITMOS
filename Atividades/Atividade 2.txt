@@ -1,0 +1,48 @@
+Descreva brevemente o experimento que fizemos em sala com as várias soluções para o problema de contagem de palavras.
+R: Era um experimento em que o programa tinha countar as 10 palavras que mais apareciam em um texto e depois printar
+ela e a quantidade de vezes em que elas apareceram
+
+Quais são as principais conclusões desse experimento?
+R: Existem varias formas de resolver esse problema porém a abordagem ingênua tem tempo de execução n^2
+e a abordagem usando dicionário tem tempo de execução n lg n ou seja é mais eficiente. 
+
+Qual a principal conclusão que chegamos após a solução do exercício do slide 16? 
+(Aquele que calculamos o tempo para ordenar um milhão de elementos usando dois algoritmos diferentes, o algoritmo 1 na máquina A, e o algoritmo 2 na máquina B).
+R: É melhor um algoritmo bom em uma linguagem com pessimo desempenho do que um algoritmo ruim em uma linguagem com bom desempenho 
+
+Leitura do capítulo 1 - "O papel dos algoritmos na computação"
+Responda as perguntas de acordo com o texto. Seja breve em suas respostas.
+O que é um algoritmo?
+R: Um algoritmo é uma sequência de etapas computacionais que transformam uma entrada em uma saída
+
+um algoritmo é qualquer procedimento computacional bem definido que toma algum valor ou
+conjunto de valores como entrada e produz algum valor ou conjunto de valores como saída
+
+O que é uma instância de um problema?
+R: Uma instância de um problema consiste na entrada que satisfaz quaisquer restrições impostas
+no enunciado do problema necessária para calcular uma solução para o problema
+
+O que é um algoritmo correto?
+R: Um algoritmo é correto se, para toda instância de entrada, ele parar com a saída correta
+
+O que é uma estrutura de dados?
+R: Uma estrutura de dados é um modo de armazenar e organizar dados com o objetivo de facilitar acesso e modificações
+
+Além do tempo, que outras medidas de eficiência podem ser de interesse na prática?
+R: espaço na memoria, banda larga de internet
+
+Resolva o exercício 1.2-2 e escreva a resposta abaixo (mostrando os cálculos).
+Considerando n um numero inteiro não negativo ao igualar e 
+simplificar a equação temos que:
+
+8⋅n² = 64⋅n⋅log(n)
+8⋅n⋅n = 64⋅n⋅log(n)
+n = 8⋅log(n)     
+
+existem 2 soluções para essa equação que é aproximadamente 1.09 e 43.55 (limitando a 2 digitos depois da virgula)
+ou seja se o n for maior que 1.09 e menor que 43.55 a função 8n² é melhor caso contrario 64⋅n⋅log(n) é melhor
+
+Resolva o problema 1-1 e escreva a resposta abaixo (Não é necessário exibir os cálculos. Ignore a coluna mês, ano e século). Para você, qual é o aspecto mais interessante do resultado?
+O programa de busca que organiza os produtos da amazon, seja a busca
+por nome ou por mais vendido o programa precisa ordenar de acordo com
+as informações inseridas
